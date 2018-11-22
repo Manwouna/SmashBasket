@@ -19,4 +19,6 @@
     <string name="finish">FINISH</string>
     <string name="welcom_background_image">welcom background image</string>
     <string name="app_logo">app logo</string>
+    <string name="finish_background">finish background</string>
+    <string name="search_league">Looking for Co-Ed Beginner league near you...</string>
 </resources>

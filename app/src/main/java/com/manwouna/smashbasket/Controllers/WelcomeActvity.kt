@@ -1,8 +1,8 @@
-package com.manwouna.smashbasket
+package com.manwouna.smashbasket.Controllers
 
 import android.content.Intent
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import com.manwouna.smashbasket.R
 import kotlinx.android.synthetic.main.activity_welcome_actvity.*
 
 class WelcomeActvity : BaseActivity() {

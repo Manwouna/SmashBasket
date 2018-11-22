@@ -5,7 +5,7 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".LeagueActivity">
+        tools:context=".Controllers.LeagueActivity">
 
     <ImageView
             android:layout_width="0dp"
@@ -44,21 +44,22 @@
                 android:text="@string/men"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" tools:layout_editor_absoluteY="168dp"
-                tools:layout_editor_absoluteX="148dp" android:id="@+id/toggleButton" android:textOff="@string/men"
+                tools:layout_editor_absoluteX="148dp" android:id="@+id/menLeagueBtn" android:textOff="@string/men"
                 android:textOn="@string/men" android:background="@drawable/swoosh_toggle"
-                android:textColor="@android:color/white"/>
+                android:textColor="@android:color/white" android:onClick="onMenClicked"/>
         <ToggleButton
                 android:text="@string/women"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" android:id="@+id/toggleButton2" android:layout_marginTop="16dp"
+                android:layout_height="wrap_content" android:id="@+id/womenLeagueBtn" android:layout_marginTop="16dp"
                 android:layout_marginBottom="16dp" android:textOff="@string/women" android:textOn="@string/women"
-                android:background="@drawable/swoosh_toggle" android:textColor="@android:color/white"/>
+                android:background="@drawable/swoosh_toggle" android:textColor="@android:color/white"
+                android:onClick="onWomenClicked"/>
         <ToggleButton
                 android:text="@string/co_ed"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" android:id="@+id/toggleButton3" android:textOff="@string/co_ed"
+                android:layout_height="wrap_content" android:id="@+id/coedLeagueBtn" android:textOff="@string/co_ed"
                 android:textOn="@string/co_ed" android:background="@drawable/swoosh_toggle"
-                android:textColor="@android:color/white"/>
+                android:textColor="@android:color/white" android:onClick="onCoedClicked"/>
     </LinearLayout>
     <Button
             android:text="@string/next"

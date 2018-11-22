@@ -1,4 +1,4 @@
-package com.manwouna.smashbasket
+package com.manwouna.smashbasket.Controllers
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
