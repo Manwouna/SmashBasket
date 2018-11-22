@@ -4,5 +4,4 @@ package com.manwouna.smashbasket.Utilities
  * 2/11/2018
  */
 
-const val EXTRA_LEAGUE = "league"
-const  val EXTRA_SKILL = "skill"
+const val EXTRA_PLAYER = "player"
