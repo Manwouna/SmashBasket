@@ -12,4 +12,11 @@
     <string name="men">Men</string>
     <string name="women">Women</string>
     <string name="co_ed">Co-Ed</string>
+    <string name="skill_background">Skill Background</string>
+    <string name="i_am_a">I am a :</string>
+    <string name="beginner">BEGINNER</string>
+    <string name="baller">BALLER</string>
+    <string name="finish">FINISH</string>
+    <string name="welcom_background_image">welcom background image</string>
+    <string name="app_logo">app logo</string>
 </resources>
